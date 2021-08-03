@@ -2,6 +2,7 @@
 Travis CI IBM `ppc64le` toolchain test
 
 ```yaml
+script:
 - uname -a 
 - uname -r 
 - dpkg -l | grep toolchain
